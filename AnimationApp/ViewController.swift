@@ -5,15 +5,23 @@
 //  Created by Кунгурцев Эдуард Сергеевич on 05.04.2022.
 //
 
-import UIKit
+import Spring
+
+var animation: Animation!
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet var mainAnimationView: SpringView!
+
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
-
-
+    
+    
+    @IBAction func animationButtonPressed(_ sender: SpringButton) {
+        
+    }
+    
 }
 
